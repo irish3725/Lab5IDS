@@ -1,0 +1,11 @@
+
+host=192.168.0.1i
+
+
+name=Blame Attack 1
+type=stateless
+proto=tcp
+host_port=5551
+attacker_port=any
+attacker=any
+to_host="Now I own your computer"

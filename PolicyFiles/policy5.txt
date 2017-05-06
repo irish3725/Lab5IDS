@@ -1,0 +1,11 @@
+host=192.168.0.1
+
+
+name=TFTP attacker boot
+type=stateless
+proto=udp
+host_port=any
+attacker_port=69
+attacker=any
+from_host="vmlinuz"
+to_host="\x00\x03\x00\x01"i

@@ -1,0 +1,9 @@
+host=192.168.0.1
+
+
+name=Buffer Overflow
+type=stateful
+host_port=5551
+attacker_port=any
+attacker=any
+to_host="\x90{10}.*\xcd\x80"i

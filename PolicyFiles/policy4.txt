@@ -1,0 +1,14 @@
+host=192.168.0.1
+
+
+name=Plaintext POP
+type=stateless
+proto=tcp
+host_port=110
+attacker_port=any
+attacker=any
+from_host="\+OK.*\r\n"
+to_host="USER .*\r\n"
+from_host="\+OK.*\r\n"
+to_host="PASS.*\r\n"
+from_host="\+OK.*\r\n"

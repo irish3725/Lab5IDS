@@ -1,0 +1,9 @@
+host=192.168.0.1
+
+
+name=Blame Attack 2
+type=stateful
+host_port=5551
+attacker_port=any
+attacker=any
+to_host="Now I own your computer"
